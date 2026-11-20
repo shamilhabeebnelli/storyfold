@@ -23,7 +23,7 @@ If port 8787 is occupied: `python3 app.py --port 8788`.
 
 ## What it does
 
-- Imports one or more **RSS 2.0 / Atom XML files** and JSON arrays. Importing appends to the current reading list.
+- Imports one or more **UTF-8 RSS 2.0 / Atom XML files** and JSON arrays. Importing appends to the current reading list.
 - Keeps every source entry and original link. Nothing is silently deleted.
 - Removes common tracking parameters when comparing URLs, while retaining content-identifying query parameters.
 - Detects normalized identical headlines, reordered/mildly altered headlines and repeated body word sets.
@@ -68,7 +68,7 @@ ghc -Wall -Werror Test.hs -o storyfold-tests
 python3 -m unittest -v test_app.py
 ```
 
-24 Haskell checks cover matching, number/negation guards, URL tracking cleanup, determinism, source preservation, Unicode and JSON escaping. 12 Python checks cover RSS/Atom parsing, DTD rejection, size/types, bridge behavior and HTTP host/token protections. Browser interaction checks also exercised the sample, search, separate view, clear, JSON import and narrow-mobile layout.
+24 Haskell checks cover matching, number/negation guards, URL tracking cleanup, determinism, source preservation, Unicode and JSON escaping. 13 Python checks cover RSS/Atom parsing, DTD rejection, size/types, bridge behavior and HTTP host/token protections. Browser interaction checks also exercised the sample, search, separate view, clear, JSON import and narrow-mobile layout.
 
 ## Privacy and safety
 
