@@ -21,9 +21,10 @@ def text(element):
 
 def parse_feed(raw, fallback='Imported feed'):
     # No DTD/entity expansion, external resources or XInclude processing.
-    if b'<!DOCTYPE' in raw.upper() or b'<!ENTITY' in raw.upper():
+    xml = raw.decode('utf-8-sig')
+    if '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
         raise ValueError('DTD/entity declarations are not accepted')
-    root = ET.fromstring(raw)
+    root = ET.fromstring(xml)
     def tag(e): return e.tag.rsplit('}', 1)[-1]
     def first(e, name): return next((x for x in e if tag(x) == name), None)
     channel = first(root, 'channel') if tag(root) == 'rss' else root
