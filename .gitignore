@@ -1,0 +1,7 @@
+*.hi
+*.o
+/storyfold
+/storyfold.exe
+/storyfold-tests
+/storyfold-tests.exe
+/__pycache__/
