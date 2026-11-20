@@ -16,6 +16,8 @@ class Tests(unittest.TestCase):
         self.assertEqual(rows[0]['url'],'https://example.com/a')
     def test_dtd(self):
         with self.assertRaises(ValueError): app.parse_feed(b'<!DOCTYPE rss><rss/>')
+    def test_utf16_entity_rejected(self):
+        with self.assertRaises(UnicodeError): app.parse_feed('<!DOCTYPE rss><rss/>'.encode('utf-16'))
     def test_bad_xml(self):
         with self.assertRaises(Exception): app.parse_feed(b'<rss>')
     def test_field_type(self):
