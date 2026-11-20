@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Kozhikode opens coastal walking trail for visitors",
+    "url": "https://example.com/trail?utm_source=demo",
+    "source": "Coast Daily (Fictional demo)",
+    "published": "2026-11-20",
+    "body": "A fictional demonstration story about a newly opened walking trail."
+  },
+  {
+    "title": "Kozhikode coastal walking trail opens for visitors",
+    "url": "https://example.org/coast",
+    "source": "City Observer (Fictional demo)",
+    "published": "2026-11-20",
+    "body": "A second fictional report about the same trail, with a differently ordered headline."
+  },
+  {
+    "title": "Kozhikode opens coastal walking trail for visitors today",
+    "url": "https://example.com/trail?utm_source=updated",
+    "source": "Coast Daily \u00b7 updated (Fictional demo)",
+    "published": "2026-11-21",
+    "body": "An updated fictional version. The opening hours are now included."
+  },
+  {
+    "title": "Local school announces student robotics workshop",
+    "url": "https://example.net/robotics",
+    "source": "Learning Post (Fictional demo)",
+    "published": "2026-11-20",
+    "body": "A separate fictional education story."
+  },
+  {
+    "title": "Kerala train route adds 4 evening services",
+    "url": "https://example.com/trains",
+    "source": "Transport Journal (Fictional demo)",
+    "published": "2026-11-20",
+    "body": "Numbers matter; this must not merge with the report about 6 services."
+  },
+  {
+    "title": "Kerala train route adds 6 evening services",
+    "url": "https://example.org/trains",
+    "source": "Rail Bulletin (Fictional demo)",
+    "published": "2026-11-20",
+    "body": "A separate fictional transport report with a different number."
+  }
+]
