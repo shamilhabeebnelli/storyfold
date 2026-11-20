@@ -91,4 +91,6 @@ Community requests that motivated the problem:
 
 Existing alternatives already solve parts of this problem. [NewsBlur offers story clustering](https://www.newsblur.com/features/story-clustering), and FreshRSS/ReactFlux provide duplicate handling. StoryFold is a small inspectable local experiment, not a claim of a new category or affiliation with those projects.
 
-Copyright 2026 shamilhabeebnelli. All rights reserved. No reuse license is granted.
+## License
+
+MIT License. Copyright (c) 2026 shamilhabeebnelli. See [LICENSE](LICENSE). The license covers this original code and documentation. It does not grant trademark rights or override licenses on separately installed dependencies or imported third-party content.
